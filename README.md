@@ -10,6 +10,7 @@ Colección de scripts Python para consultar información de URLs y dominios a tr
 |--------|-----------|----------|
 | `pan_url_checker.py` | PAN-OS Firewall API | Categoría y riesgo de URLs via firewall |
 | `pan_domain_checker.py` | DNS Security Threat Vault API | Información de amenazas de dominios (cloud) |
+| `pan_wildfire_checker.py` | WildFire Public Cloud API | Veredicto de URLs en WildFire (con auto-envío si desconocida) |
 
 ---
 
@@ -34,6 +35,9 @@ PAN_API_KEY=tu_clave_pan_aqui
 
 # pan_domain_checker.py
 DNS_API_KEY=tu_clave_dns_aqui
+
+# pan_wildfire_checker.py
+WILDFIRE_API_KEY=tu_clave_wildfire_aqui
 ```
 
 > **¿Dónde obtengo la PAN API Key?**  
@@ -42,6 +46,9 @@ DNS_API_KEY=tu_clave_dns_aqui
 
 > **¿Dónde obtengo la DNS API Key?**  
 > En el [Customer Support Portal](https://support.paloaltonetworks.com) o en la consola de DNS Security.
+
+> **¿Dónde obtengo la WildFire API Key?**  
+> En el [Customer Support Portal](https://support.paloaltonetworks.com) → **Assets → API Keys**.
 
 ---
 
