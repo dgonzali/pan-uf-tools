@@ -28,7 +28,7 @@ from dotenv import load_dotenv
 # Constantes
 # ──────────────────────────────────────────────────────────────────────────────
 API_ENDPOINT = "https://api.dns.service.paloaltonetworks.com/v1/domain/info"
-BATCH_SIZE   = 50  # máximo recomendado por petición
+BATCH_SIZE   = 20  # máximo permitido por la API
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Colores ANSI
