@@ -92,7 +92,7 @@ malware-test.com                              malware                        hig
 
 ## pan_domain_checker.py
 
-Consulta información de dominios via la **API Threat Vault de DNS Security** (cloud). Envía los dominios en lotes para mayor eficiencia (hasta 50 por petición).
+Consulta información de dominios via la **API Threat Vault de DNS Security** (cloud). Envía los dominios en lotes para mayor eficiencia (hasta 20 por petición).
 
 ### Uso
 
